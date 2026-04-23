@@ -1,7 +1,7 @@
 {
   "name": "smart-city-dashboard",
   "version": "0.1.0",
-  "private": "true",
+  "private": true,
   "scripts": {
     "start": "echo 'Frontend scaffold created'",
     "build": "echo 'Frontend build scaffold'",
