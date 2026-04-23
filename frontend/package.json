@@ -1,0 +1,22 @@
+{
+  "name": "smart-city-dashboard",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "echo 'Frontend scaffold created'",
+    "build": "echo 'Frontend build scaffold'",
+    "test": "echo 'No frontend tests yet'"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.4"
+  },
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: smart-city-api
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: smart-city-api
+  template:
+    metadata:
+      labels:
+        app: smart-city-api
+    spec:
+      containers:
+        - name: api
+          image: smart-city-analytics:latest
+          ports:
+            - containerPort: 8000
