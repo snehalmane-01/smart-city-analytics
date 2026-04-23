@@ -1,0 +1,10 @@
+{
+  "title": "Smart City Overview",
+  "panels": [
+    {"type": "timeseries", "title": "Traffic Flow"},
+    {"type": "timeseries", "title": "Air Quality"},
+    {"type": "timeseries", "title": "Energy Consumption"}
+  ],
+  "schemaVersion": 39,
+  "version": 1
+}
